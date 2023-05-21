@@ -1,0 +1,130 @@
+/* nav style */
+.nav{
+    padding: 2rem 0;
+}
+.nav__icon,
+.nav__close,
+.nav__bgOverlay{
+    display: none;
+}
+.nav__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+.nav__list, .nav__link{
+    font-size: 2rem;
+    font-family: Comme ;
+    color: var(--black-1);
+    padding: 0,5rem;
+}
+.nav__list li:hover .nav__link {
+    color: var(--red-1);
+}
+
+
+/* footer style */
+
+footer{
+    background: var(--beige-2);
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+.footer__wrapper{
+    display:flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.footer__col1 {
+    flex: 4;
+}
+.footer__col2,
+.footer__col3,
+.footer__col4 {
+    flex: 3;
+}
+.footer__logo{
+    width: 150px;
+    margin-bottom: 2rem;
+}
+.footer__desc{
+    font-size: 1.4rem;
+    color: var(--black-2);
+    margin-bottom: 2.5rem;
+    max-width: 300px;
+}
+
+.footer__socials__title{
+    font-size: 1.8rem;
+    color: var(--black-1);
+    margin-bottom: 1.5rem;
+}
+.footer__socials li{
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+.footer__socials a{
+    padding: 0.1rem 0.3rem;
+    background-color: var(--beige-1);
+    border: 1px solid var(--black-1);
+    border-radius: 8px;
+}
+.footer__socials svg{
+    width: 20px;
+    color: var(--black-1)
+}
+
+.footer__text__title{
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+    color: var(--black-1);
+    font-weight: 600;
+}
+.footer__text a{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--black-2);
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+#madeBy{
+    padding: 1rim 0;
+}
+.madeBy__text{
+    font-size: 1.3rem;
+    text-align: left;
+}
+.storeInfo__wrapper {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+.storeInfo__item {
+	background-color: var(--beige-1);
+	padding: 40px 0px;
+	text-align: center;
+	text-align: center;
+	border-radius: 12px;
+	width: 150px;
+    max-width: 200px;
+}
+.storeInfo__title {
+	font-size: 2rem;
+	font-family: Roboto;
+	font-weight: 500;
+	margin-bottom: 1rem;
+	color: var(--black-1);
+}
+.storeInfo__text {
+	font-size: 1.7rem;
+	font-family: Comme;
+	color: var(--black-2);
+}
+
